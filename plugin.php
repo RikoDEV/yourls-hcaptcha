@@ -55,7 +55,7 @@ function admin_hcaptcha_config_page()
     echo '<input type="text" id="rikodev_hcaptcha_publickey" name="rikodev_hcaptcha_publickey" value="' . $pubkey . '"></p>';
     echo '<p><label for="rikodev_hcaptcha_privatekey">hCaptcha secret key:</label>';
     echo '<input type="text" id="rikodev_hcaptcha_privatekey" name="rikodev_hcaptcha_privatekey" value="' . $privkey . '"></p>';
-    echo '<input type="submit" value="Save"/>';
+    echo '<input type="submit" value="Save Changes"/>';
     echo '</form>';
 }
 
