@@ -1,12 +1,11 @@
 <?php
 
-$siteKey = yourls_get_option( 'rikodev_hcaptcha_site' );
 $secret = yourls_get_option( 'rikodev_hcaptcha_private' );
 
 // The response from reCAPTCHA
 $resp = false;
 
-if ($siteKey == "" || $secret == "") {
+if ($secret == "") {
 
     die("To use hCaptcha you must get an API key.");
 
