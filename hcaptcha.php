@@ -3,7 +3,7 @@
 $secret = yourls_get_option( 'rikodev_hcaptcha_private' );
 
 // The response from reCAPTCHA
-$resp = false;
+$resp = NULL;
 
 if ($secret == "") {
 
